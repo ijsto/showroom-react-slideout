@@ -18,7 +18,12 @@ const SlideOutDemo = () => {
       <Button type="button" onClick={openSlideOut}>
         Open Modal
       </Button>
-      <SlideOut isOpen={slideOutIsOpen} onClose={closeSlideOut}>
+      <SlideOut
+        isOpen={slideOutIsOpen}
+        onClose={closeSlideOut}
+        padding="1rem"
+        speed="0.2s"
+      >
         <h2>My Slide Out</h2>
 
         <div>This is the content inside React Slide Out component.</div>
