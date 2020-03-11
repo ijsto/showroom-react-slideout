@@ -1,5 +1,5 @@
 {
-  "name": "istyled-nextjs",
+  "name": "react-slideout-showroom",
   "version": "1.0.0",
   "description": "Next.js boilerplate/starter project by iJS",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@ijsto/react-slideout": "0.0.8",
+    "@ijsto/react-slideout": "0.0.9",
     "next": "^9.1.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
