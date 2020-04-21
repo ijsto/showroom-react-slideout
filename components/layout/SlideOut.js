@@ -19,6 +19,7 @@ const SlideOutDemo = () => {
         Open Modal
       </Button>
       <SlideOut
+        right
         isOpen={slideOutIsOpen}
         onClose={closeSlideOut}
         padding="1rem"
