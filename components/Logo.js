@@ -8,6 +8,7 @@ const StyledLogo = styled.div`
     top: 1em;
     left: 4em;
     width: 64px;
+    z-index: 9999;
     rect {
       fill: #ff6666;
     }
