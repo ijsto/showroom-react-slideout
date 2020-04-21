@@ -16,7 +16,7 @@ const SlideOutDemo = () => {
   return (
     <div>
       <Button type="button" onClick={openSlideOut}>
-        Open Modal
+        Open Slideout
       </Button>
       <SlideOut
         right
